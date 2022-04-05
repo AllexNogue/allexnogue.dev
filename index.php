@@ -43,7 +43,16 @@
         <section id="about" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 ">
             <div class="col-md-8 p-lg-5 mx-auto my-5">
                 <h2 class="section-about">Sobre</h2>
-                <p>Olá! Meu nome é Brittany e eu gosto de criar coisas que vivem na internet. Meu interesse em desenvolvimento web começou em 2012, quando decidi tentar editar temas personalizados do Tumblr - acabou que criar um botão de reblog personalizado me ensinou muito sobre HTML e CSS!</p>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Olá! Meu nome é Allex e eu gosto de criar coisas que vivem na internet. Meu interesse em desenvolvimento web começou em 2011, quando decidi tentar editar temas personalizados do Blogger - acabou que criar um botão personalizado me ensinou muito sobre HTML e CSS!</p>
+                    </div>
+                    <div class="col-md-4 img-nog-mouse">
+                        <img src="/assets/img/profile-pic-7.png" alt="Foto de Allex Nogue" class="img-nogue img-fluid">
+                        <img src="/assets/img/profile-pic-5.png" alt="Foto de Allex Nogue" class="img-nogue img-fluid d-none">
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
