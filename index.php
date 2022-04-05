@@ -33,7 +33,7 @@
     <main role="main">
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
             <div class="col-md-8 p-lg-5 mx-auto my-5">
-                <p class="mb-0 hi">Oi meu nome é</p>
+                <p class="mb-0 hi">Olá meu nome é</p>
                 <h1 class="my-name display-4 ">Allex Nogue</h1>
                 <h2 class="i-make lead ">Eu construo coisas para a web.</h2>
                 <p>Sou um engenheiro de software especializado em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado em construir produtos acessíveis e centrados em soluções de pagamentos na Brasil Cash.</p>
