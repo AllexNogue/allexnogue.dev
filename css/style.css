@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Source Code Pro:400,500,600,700,800|Epilogue:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700&amp;display=swap");
+
+:root{
+    --color1: #3D405B;
+    --color2: #F4F1DE;
+    --color3: #E07A5F;
+    --color4: #81B29A;
+    --color5: #F2CC8F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color1);
+    color: var(--color2);
+    font-family: "Source Code Pro";
+}
+
+.hi{
+    font-size: 24px;
+    color: var(--color3);
+}
+.my-name{
+    font-size: 5.6em;
+    font-weight: 600;
+}
+.i-make{
+    font-size: 5em;
+    color: var(--color4);
+}
+
+.section-about{
+    color: var(--color5);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: 2.5em;
+    white-space: nowrap;
+    line-height: 0;
+}
+
+.section-about::before{
+    position: relative;
+    bottom: 4px;
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 8px;
+    /* background-color: var(--color5); */
+    /* font-family: var(--font-mono); */
+    /* font-size: clamp(var(--fz-md),3vw,var(--fz-xl)); */
+    font-weight: 400;
+}
+
+.section-about::after{
+    /* content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: var(--color5); */
+}
+
+
+
+/* bootstrap */
+.navbar-toggler{
+    background: var(--color2);
+    
+}
+.navbar-toggler-icon{
+    color: var(--color1);
+}
